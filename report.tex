@@ -69,9 +69,20 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-This document is a supplement to the general instructions for *ACL authors. It contains instructions for using the \LaTeX{} style file for ACL 2023.
-The document itself conforms to its own specifications, and is, therefore, an example of what your manuscript should look like.
-These instructions should be used both for papers submitted for review and for final versions of accepted papers.
+Patients commonly have symptoms that they can’t fully understand.
+AI can help direct patients to the correct doctor and specialty where they can seek medical advice.
+This can help patients by starting with the right specialty instead of seeing a general doctor who would suggest a specialty.
+The inclusion of AI can be very helpful - though there are ethical concerns with its inclusion.
+Our goal is to evaluate different models’ abilities at analyzing doctors’ medical notes.
+The models will classify what type of medical condition the patient may have.
+The possible classes are: digestive system diseases, cardiovascular diseases, neoplasms, nervous system diseases, and general pathological conditions.
+The general pathological conditions class is our base class.
+
+For our models, we will be aiming to have high precision and limit the amount of false-positive results.
+It is better for our models to have false-negative results (a patient has a condition, but we diagnose them with a general condition) than to have false-positive results (a patient has a condition, and we diagnose them with the wrong class).
+We will use multiple models and evaluate their strengths and weaknesses.
+We will compare these models, with ethics in mind, to make a recommendation of why the medical field should use a certain type of model.
+We will compare a KNN Model, a Neural Network Model, and a Large-Language Model.
 \end{abstract}
 
 \section{Introduction}
