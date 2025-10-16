@@ -1,1 +1,20 @@
 /data
+.ipynb_checkpoints
+venv
+
+# LaTex ignore
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fdb_latexmk
+*.fot
+*.cb
+*.cb2
+*.lb
+*.synctex.gz
+*.pdf
