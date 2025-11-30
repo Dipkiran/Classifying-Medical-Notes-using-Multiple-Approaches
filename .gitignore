@@ -18,3 +18,4 @@ venv
 *.lb
 *.synctex.gz
 *.pdf
+*.pyc
