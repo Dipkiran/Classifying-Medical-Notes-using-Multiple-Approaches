@@ -15,6 +15,8 @@ class PlotReport():
         self.model = model
         self.X_test = X_test
         self.y_test = y_test
+        plots_folder = "plots"
+        os.makedirs(plots_folder, exist_ok=True)
     
     def get_confusion_matrix(self, pred_arg=False, test_arg=False):
         y_pred = self.model.predict(self.X_test)
